@@ -1,14 +1,8 @@
 var indexSectionsWithContent =
 {
-<<<<<<< HEAD
-  0: "acdglprtw",
-  1: "lrw",
-  2: "acdglpt",
-=======
   0: "acdfgilmprstw",
   1: "flrw",
   2: "acdgilmprstw",
->>>>>>> 62d0fca (wrap up docs)
   3: "r"
 };
 

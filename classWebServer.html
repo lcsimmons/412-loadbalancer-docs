@@ -93,20 +93,6 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<<<<<<< HEAD
-<tr class="memitem:a0329025a3cc0f29fc71290753a581d37" id="r_a0329025a3cc0f29fc71290753a581d37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0329025a3cc0f29fc71290753a581d37">processRequest</a> (<a class="el" href="structrequest.html">request</a> req)</td></tr>
-<tr class="separator:a0329025a3cc0f29fc71290753a581d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5442b5f8813842530b05ed0b331eb5c6" id="r_a5442b5f8813842530b05ed0b331eb5c6"><td class="memItemLeft" align="right" valign="top"><a id="a5442b5f8813842530b05ed0b331eb5c6" name="a5442b5f8813842530b05ed0b331eb5c6"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>tick</b> ()</td></tr>
-<tr class="separator:a5442b5f8813842530b05ed0b331eb5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee52943eca890d2b0d76cacdd57974b" id="r_a3ee52943eca890d2b0d76cacdd57974b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ee52943eca890d2b0d76cacdd57974b">checkIsBusy</a> ()</td></tr>
-<tr class="memdesc:a3ee52943eca890d2b0d76cacdd57974b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given webserver is busy.  <br /></td></tr>
-<tr class="separator:a3ee52943eca890d2b0d76cacdd57974b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b9cecfa86cebe9dd1dda624d915d2de" id="r_a6b9cecfa86cebe9dd1dda624d915d2de"><td class="memItemLeft" align="right" valign="top"><a id="a6b9cecfa86cebe9dd1dda624d915d2de" name="a6b9cecfa86cebe9dd1dda624d915d2de"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setBusy</b> (bool status)</td></tr>
-<tr class="separator:a6b9cecfa86cebe9dd1dda624d915d2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-=======
 <tr class="memitem:ad053f4e1808a3c10c7522d0dbbbc031a" id="r_ad053f4e1808a3c10c7522d0dbbbc031a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad053f4e1808a3c10c7522d0dbbbc031a">WebServer</a> ()</td></tr>
 <tr class="memdesc:ad053f4e1808a3c10c7522d0dbbbc031a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classWebServer.html">WebServer</a> object.  <br /></td></tr>
 <tr class="separator:ad053f4e1808a3c10c7522d0dbbbc031a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +130,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setBusy</b> (bool sta
 
 </div>
 </div>
->>>>>>> 62d0fca (wrap up docs)
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3ee52943eca890d2b0d76cacdd57974b" name="a3ee52943eca890d2b0d76cacdd57974b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ee52943eca890d2b0d76cacdd57974b">&#9670;&#160;</a></span>checkIsBusy()</h2>
@@ -161,18 +146,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setBusy</b> (bool sta
       </table>
 </div><div class="memdoc">
 
-<<<<<<< HEAD
-<p>Checks if the given webserver is busy. </p>
-<dl class="section return"><dt>Returns</dt><dd>true </dd>
-<dd>
-false </dd></dl>
-=======
 <p>Checks if the web server is currently busy. </p>
 <p>This method returns whether the web server is currently processing a request.</p>
 <dl class="section return"><dt>Returns</dt><dd>true If the web server is busy. </dd>
 <dd>
 false If the web server is idle and available for new requests. </dd></dl>
->>>>>>> 62d0fca (wrap up docs)
 
 </div>
 </div>
@@ -190,26 +168,18 @@ false If the web server is idle and available for new requests. </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
-<<<<<<< HEAD
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">req</td><td></td></tr>
-=======
 
 <p>Assigns a request to the web server for processing. </p>
 <p>If the server is not busy, this method assigns the given request to the web server and sets the processing time based on the request's time field. The server is then marked as busy.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">req</td><td>The request to be processed by the web server. </td></tr>
->>>>>>> 62d0fca (wrap up docs)
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<<<<<<< HEAD
-=======
 <a id="a6b9cecfa86cebe9dd1dda624d915d2de" name="a6b9cecfa86cebe9dd1dda624d915d2de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b9cecfa86cebe9dd1dda624d915d2de">&#9670;&#160;</a></span>setBusy()</h2>
 
@@ -257,7 +227,6 @@ false If the web server is idle and available for new requests. </dd></dl>
 
 </div>
 </div>
->>>>>>> 62d0fca (wrap up docs)
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="webServer_8h_source.html">webServer.h</a></li>
 <li><b>webServer.cpp</b></li>
